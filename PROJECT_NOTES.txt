@@ -1,0 +1,21 @@
+EDUGENIE PROJECT
+================
+
+This package is the complete runnable source project created from the supplied EduGenie sample document.
+
+START:
+1. Install Python 3.10+
+2. Add your Gemini API key to .env
+3. Windows: double-click run_windows.bat
+   OR
+   run: python -m uvicorn main:app --reload
+4. Open http://127.0.0.1:8000
+
+The API key is NOT included for security.
+
+Modules:
+- qna.py
+- explanation_module.py
+- quiz_module.py
+- summary_module.py
+- learning_path.py
